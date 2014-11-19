@@ -26,5 +26,5 @@ if Process.arguments.count == 3 {
   var result = checkForAnagram(Process.arguments[1], Process.arguments[2]) // Intentionally skips first word, which is file name
   println("\(Process.arguments[1]), \(Process.arguments[2]): \(result)")
 } else {
-  print("That's the wrong numbers of arguments!\n")
+  println("That's the wrong numbers of arguments!")
 }
